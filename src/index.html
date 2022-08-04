@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./index.css">
-    <script defer src="./index.js" type="module"></script>
-    <title>Title</title>
+    <script defer src="./app.js" type="module"></script>
+    <title>Numerology app</title>
 </head>
 <body>
 
@@ -17,10 +17,10 @@
         <p class="intro__info-text">De som van de letters uit jouw naam worden teruggebracht tot 1 cijfer. Volgens de numerologie is dit je Expression
             Number en zegt dit iets over jouw persoonlijkheid.</p>
     </section>
-    <form class="form__container">
+    <form class="form__container" id="submit">
         <label class="form__label" for="input">
             <input type="text" id="input" class="form__input" placeholder="Voornaam(en) en achternaam">
-            <button id="submit" class="form__btn">bereken</button>
+            <button class="form__btn">bereken</button>
         </label>
     </form>
     <section id="card" class="card__container hide">
